@@ -6,9 +6,9 @@ public class lessens_1 {
     public static void main(String[] args) {
 
                 Scanner scanner = new Scanner(System.in);
-                System.out.println("Как тебя завут?");
-                String name =scanner.next();
-                System.out.println("Здравствуй, " + name);
+                System.out.println("Привет");
+                String name =scanner.nextLine();
+                System.out.println("Привет" + name);
 
 
     }
